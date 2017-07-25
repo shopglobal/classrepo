@@ -6,16 +6,27 @@
   </head>
   <body>
 
+<div class="container">
+<h1>Javascript Variables and Console Log</h1></div>
     <!-- Note the script tag here as well as the "text/javascript" -->
     <!-- When we write JavaScript in HTML, it must be contained within a <script> tag. -->
     <script type="text/javascript">
 
       // Variables can be strings, numbers, or booleans (true / false)
-      var name = "Snow White";
-      var dwarfCount = 7;
-      var isSleeping = true;
+    var age = 27;
+    var homeTown = "Sandy Lake";
+    var isABigCity = false;
+    var name = prompt("What is your name?");
+    var isAge = confirm("Is your age" + age + "?")
+    console.log("isAge is" + isAge)
 
-      console.log("Name %s, Dwarf Count %s, Are they sleeping? %s", name, dwarfCount, isSleeping);
+    alert("Hello, my name is " + name )
+    alert("Is your Home Town a Big City" + isABigCity);
+
+      console.log("Hello, my name is " + name );
+      console.log("Is your Home Town a Big City" + isABigCity);
+      console.log("age , homeTown, isABigCity");
+      // console.log(age, homeTown, isABigCity); //
       
     </script>
 
