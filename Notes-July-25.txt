@@ -1,0 +1,15 @@
+Javascript basic variables:
+
+Strings have = "The Strings";
+Numbers have = 7;
+Booleans have = true/false;
+
+Example in class notes: 
+
+Var name = "Snow White";
+var dwarfCount = 7;
+var isSleeping = true;
+
+
+
+
