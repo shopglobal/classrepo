@@ -4,7 +4,28 @@ Strings have = "The Strings";
 Numbers have = 7;
 Booleans have = true/false;
 
-Example in class notes: 
+Confirm: True or False, Yes or No, Ok or Cancel
+Prompt: Write text strint or number answer and store to the reference
+
+Confirm/Prompt/Alert: Boolean
+Confirm/Prompt/Alert: Strings & Numbers
+
+Example from scratch:
+var rainNow = confirm("Is it raining now?")
+var weatherLike = prompt("What's the weather like, over by your house?")
+
+    alert("Hello, my name is " + name )
+    alert("Is your Home Town a Big City" + isABigCity);
+
+      console.log("Hello, my name is " + name );
+      console.log("Is your Home Town a Big City" + isABigCity);
+      console.log("age , homeTown, isABigCity");
+      // console.log(age, homeTown, isABigCity); //
+
+
+
+
+Example from class notes: 
 
 Var name = "Snow White";
 var dwarfCount = 7;
